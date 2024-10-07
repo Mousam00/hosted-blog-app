@@ -1,3 +1,3 @@
 echo "build start"
-pip install -r requirement.txt
+python -m pip install -r requirement.txt
 echo "build end"
