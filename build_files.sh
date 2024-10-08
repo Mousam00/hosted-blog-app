@@ -1,6 +1,6 @@
 # build_files.sh
 python venv venv
-scource .venv/bin/activate
+source .venv/bin/activate
 pip install -r requirements.txt
 python3.12 manage.py collectstatic
 
